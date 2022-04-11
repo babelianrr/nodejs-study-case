@@ -1,0 +1,203 @@
+/* Setup */
+* {
+  cursor: default;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(./assets/jumbotron.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .jumbotron {
+    background-image: url(./assets/jumbotron-1199px.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .jumbotron {
+    background-image: url(./assets/jumbotron-991px.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron {
+    background-image: url(./assets/jumbotron-768px.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .jumbotron {
+    background-image: url(./assets/jumbotron-576px.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+/* Styles */
+.text-red {
+  color: #bd0707 !important
+}
+
+.text-brown {
+  color: #974A4A !important;
+}
+
+.text-choco {
+  color: #613d2b !important;
+}
+
+.fw-9 {
+  font-weight: 900 !important;
+}
+
+.fw-5 {
+  font-weight: 500 !important;
+}
+
+.form-red {
+  border: 2px solid #bd0707;
+  border-radius: 5px;
+  background: rgba(224, 200, 200, 0.25);
+}
+
+.btn-red {
+  background: #BD0707 !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+}
+
+.btn-outline-red {
+  background: #fff !important;
+  border: 1px solid #bd0707 !important;
+  border-radius: 5px !important;
+  color: #bd0707 !important;
+}
+
+.btn-outline-red:hover {
+  background: #BD0707 !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+}
+
+.btn-red:hover {
+  background: #fff !important;
+  border: 1px solid #bd0707 !important;
+  border-radius: 5px !important;
+  color: #bd0707 !important;
+}
+
+.fre-60 {
+  font-size: 60px;
+  font-family: 'Freight' !important;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-21 {
+  font-size: 21px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.bg-pink {
+  background-color: #F6DADA !important;
+}
+
+.card {
+  border-radius: 10px !important;
+}
+
+.no-border {
+  border: 0 solid #fff !important;
+}
+
+.bg-green {
+  background-color: #3BB54A !important;
+}
+
+.bg-red {
+  background-color: #BD0707 !important;
+}
+
+.bg-cyan {
+  background-color: #00d1ff !important;
+}
+
+.hr-brown {
+  height: 3px !important;
+  border-width: 0 !important;
+  color: #974A4A !important;
+  background: #974A4A !important;
+}
+
+.bill {
+  text-align: center;
+  border: 2px solid #bd0707;
+  background-color: rgba(224, 200, 200, 0.25);
+  padding: 10%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-textarea {
+  height: 100px !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.h-1 {
+  height: 1rem !important;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px;
+  /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  /* gutter size */
+  background-clip: padding-box;
+}
